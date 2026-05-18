@@ -16,7 +16,7 @@ int main(){
     const int f=99; //Cannot change value
 	std::cout << "Value of f:" << f << std::endl;
 
-	auto g=994;
+	auto g=994; //automatically detects  variable type
 	auto h=12.455;
 	std::cout << "Value of g:" << g <<"\nVariable Type of g: " << typeid(g).name() << std::endl;
 	std::cout << "Value of h:" << h <<"\nVariable Type of h: " << typeid(h).name() << std::endl;
