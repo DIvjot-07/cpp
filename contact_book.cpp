@@ -2,7 +2,7 @@
 #include <string>
 #define N 5
 
-std::string name[N], phones[N];
+std::string name[N], phones[N]; //std::string instead of int because int can take only -2B to 2B numbers 
 int n=0;
 
 void addContact(){
